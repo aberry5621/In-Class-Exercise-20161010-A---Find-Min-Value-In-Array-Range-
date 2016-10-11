@@ -16,7 +16,6 @@ int find_min_number(int input_array[], int array_size, int min_idx, int max_idx)
 
 	if ((min_idx < max_idx) && (min_idx > 0) && (max_idx < array_size))
 	{
-		
 		cout << "Searching array from index " << min_idx << " to " << max_idx << endl;
 
 		for (int i = min_idx; i < max_idx; i++) {
@@ -26,7 +25,6 @@ int find_min_number(int input_array[], int array_size, int min_idx, int max_idx)
 				min_number = input_array[i];
 			}
 		}
-
 	}
 	else 
 	{
@@ -67,7 +65,6 @@ int main() {
 		cout << "Input error, check input range." << endl;
 	}
 	
-
 	cout << "~ FIN ~" << endl;
 
 	return 0;
